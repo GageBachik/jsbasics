@@ -1,7 +1,5 @@
-var x = 5000;
-
-if(x < 1000) {
-	console.log('Tiny.');
-}else {
-	console.log('Not so tiny!');
+for(var	j=0; j<4; j++) {
+	for(var i=0; i<4; i++) {
+		console.log(i);
+	}
 }
